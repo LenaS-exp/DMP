@@ -2,11 +2,17 @@
 Linux kernel module that creates virtual block devices on top of an existing device mapper and monitors the statistics of performed operations on the device. Statistics are available through the sysfs module.
 
 Supported statistics:
+
 • Number of write requests - *write_reqs*
+
 • Number of read requests - *read_reqs*
+
 • Average block size per write - *average write_size*
+
 • Average block size per read - *average read_size*
+
 • Total number of requests - *total_reqs*
+
 • Average block size - *average block size*
 
 Tested on Ubuntu 22.04.4
