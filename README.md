@@ -11,12 +11,13 @@ Supported statistics:
 
 Tested on Ubuntu 22.04.4
 
-Files:
-• dmp.c - source code
-• Makefile - build script
-• start.sh - module connecting and creating test devices
-• test.sh - module testing 
-• end.sh - remove module and test devices
+| Filename                        | Description                                                                                                                                                             |
+|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| dmp.c           | source code                                                                                                        
+| Makefile        | build script                    
+| start.sh        | module connecting and creating test devices
+| test.sh         | module testing  
+| end.sh          | remove module and test devices
 
 ## Usage
 Start:
@@ -34,7 +35,7 @@ Finish:
 ```bash
 sudo ./end.sh
 ```
-##Useful links
-1. [Writing your own Device Mapper Target]<https://medium.com/@gauravmmh1/writing-your-own-device-mapper-target-539689d19a89>
-2. [Linux bio functions]<https://github.com/torvalds/linux/blob/master/include/linux/bio.h>
-3. [Sysfs in Linux Kernel]<https://embetronicx.com/tutorials/linux/device-drivers/sysfs-in-linux-kernel/>
+## Useful links
+1. [Writing your own Device Mapper Target](https://medium.com/@gauravmmh1/writing-your-own-device-mapper-target-539689d19a89)
+2. [Linux bio functions](https://github.com/torvalds/linux/blob/master/include/linux/bio.h)
+3. [Sysfs in Linux Kernel](https://embetronicx.com/tutorials/linux/device-drivers/sysfs-in-linux-kernel/)
